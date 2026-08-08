@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dad Joke Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero-card">
+        <div id="introView" class="view">
+          <p class="eyebrow">A tiny joy machine</p>
+          <h1>Wanna hear a dad's joke?</h1>
+          <p class="subtitle">Choose yes for a smile, or no to skip.</p>
+
+          <div class="actions">
+            <button id="yesButton" class="primary-btn">Yes</button>
+            <button id="noButton" class="secondary-btn">No</button>
+          </div>
+        </div>
+
+        <div id="jokeView" class="view hidden">
+          <div class="joke-card-wrapper">
+            <div id="jokeCard" class="joke-card" tabindex="0" role="button" aria-label="Flip the joke card">
+              <div class="card-face card-front">
+                <span class="tag">Question</span>
+                <p id="frontText">Tap the button to reveal a joke.</p>
+                <p class="hint">Turn to see the answer</p>
+              </div>
+              <div class="card-face card-back">
+                <span class="tag">Answer</span>
+                <p id="backText">Your punchline will appear here.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="actions compact-actions">
+            <button id="anotherButton" class="secondary-btn">Wanna hear another joke?</button>
+            <button id="backButton" class="ghost-btn">Back</button>
+          </div>
+        </div>
+
+        <div id="byeView" class="view hidden">
+          <h2>Hope it made you day : )</h2>
+          <p class="subtitle">Thanks for stopping by.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
