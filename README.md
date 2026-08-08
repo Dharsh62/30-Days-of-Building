@@ -1,4 +1,4 @@
-#  Day 01 — Dad Joke Generator😂
+#  Day 01 — Dad Joke Generator
 
 My first project of the **30 Days of Building** journey.
 
