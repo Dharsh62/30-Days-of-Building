@@ -26,9 +26,10 @@ APIs • Python • AI/ML • GenAI • Agentic AI • Web Development • Cloud
 
 ### 📈 Progress
 
-| Day | Project                        | Topic |
-| --- | ------------------------------ | ----- |
-| 01  | [Dad Joke Generator](./Day-01) | APIs  |
+| Day | Topic | Notes |
+|-----|-------|-------|
+| 1 | API basics (Chuck Norris/Joke APIs) | [Day-01](./Day-01) |
+| 2 | LLM API basics (Groq, params, personas) | [Day-02](./Day-02) |
 
 More coming every day. 🚀
 
